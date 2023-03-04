@@ -1,0 +1,90 @@
+*{
+  margin: 0;
+  padding: 0;
+  background-color: #282c34;
+}
+
+.App {
+  text-align: center;
+  height: 100%;
+  min-height: 100vh;
+}
+
+form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 1rem;
+}
+
+input{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  background-color: #282c34;
+  color: #61dafb;
+  /* remove focus */
+  outline: none;
+}
+
+button{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  background-color: #61dafb;
+  color: #282c34;
+  
+}
+/* button hover */
+button:hover{
+  background-color: #282c34;
+  color: #61dafb;
+}
+
+/* Path: frontend/client/src/App.js */
+
+.list{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 1rem;
+}
+
+p{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  background-color: #282c34;
+  color: #61dafb;
+}
+
+/* user have name and age combine and edit button*/
+.user{
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  
+  font-size: calc(10px + 2vmin);
+  color: white;
+  margin: 1rem;
+  border: 2px solid #61dafb;
+}
+
+.edit{
+  margin: 10px;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #61dafb;
+  background-color: #61dafb;
+  color: #282c34;
+}
